@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-client-app
+  cloud:
+    config:
+      discovery:
+        enabled: true
+server:
+  port: 8888
+
+eureka:
+  client:
+    server-url: 
+     default-zone: http://dbaviskar:8761/eureka
+      

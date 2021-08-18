@@ -1,0 +1,12 @@
+spring:
+  activemq:
+    broker-url:
+  application:
+    name: spring-cloud-config-serverapp
+  cloud:
+    config:      server:        git:          uri: https://github.com/dustinschultz/scf-config-repository    compatibility-verifier:      compatible-boot-versions:      - 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://dbaviskar:8761/eureka
+  

@@ -1,0 +1,10 @@
+spring:
+  activemq:
+    broker-url:
+  application:
+    name: app-service-1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://dbaviskar:8761/eureka
+  
